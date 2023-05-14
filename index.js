@@ -125,7 +125,7 @@ var erroembed = new Discord.MessageEmbed()
 }
 })
 
-const TOKEN = config.token
+const TOKEN = process.env.TOKEN
 client.login(TOKEN); 
 
 
